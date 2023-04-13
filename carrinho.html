@@ -67,12 +67,40 @@
             <div class="ult">
                  <div class="preencher"></div>
                  <div class="quantidade">
-                    
+                    <fieldset class="geral">
+                        <button onclick="Subtrair();" class="menos"> <b>-</b> </button>
+                        <input class="numero" value="1" id="numero" type="number">
+                        <button onclick="Adicionar();" class="mais"><b>+</b></button>
+                    </fieldset>
                  </div>
                  <div class="botao">  </div>
             </div>
         </div>
 
+         <fieldset class="teste1">
+            <button  class="teste">COMPRAR</button>
+         </fieldset>
+
+        <script>
+            function Adicionar()
+            {
+                numero.value=parseInt(numero.value)+1
+               
+            }
+
+            function Subtrair()
+            {
+                if(numero.value >1)
+                {
+                    numero.value=parseInt(numero.value)-1
+                }
+                
+
+            }
+
+            
+
+        </script>
     
 </body>
 </html>

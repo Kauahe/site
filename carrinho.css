@@ -96,7 +96,7 @@ body
     width: 100%;
     height: 15vh;
     margin-top: 5px;
-    background-color: aquamarine;
+
     border-style: solid;
     border-width: 3px;
     border-color: black;
@@ -112,7 +112,7 @@ body
 {
     width: 35%;
     height: 15vh;
-    background-color: blueviolet;
+  
     display: flex;
     justify-content: center;
     justify-items: center;
@@ -136,7 +136,7 @@ body
 {
     width: 35%;
     height: 15vh;
-    background-color: blue;
+  
     display: flex;
     justify-content: center;
     justify-items: center;
@@ -149,7 +149,7 @@ body
 {
     width: 50%;
     height: 15vh;
-    background-color: rgb(42, 151, 78);
+    
     display: flex;
     justify-content: center;
     justify-items: center;
@@ -162,21 +162,26 @@ body
 {
     width: 100%;
     height: 4vh;
-    background-color: #EF5867;
+  
 }
 
 .quantidade
 {
     width: 100%;
     height: 8vh;
-    background-color: coral;
+   
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
 }
 
 .botao
 {
     width: 100%;
     height: 4vh;
-    background-color: rgb(80, 138, 255);
     display: flex;
     justify-content: center;
     justify-items: center;
@@ -185,4 +190,45 @@ body
     align-items: center;
 }
 
+.geral
+{
+    border-style: none;
+}
 
+
+.menos
+{
+    width: 25%;
+    height: 3vh;
+    background-color: aliceblue;
+    border-radius: 5px;
+
+}
+
+.numero
+{
+    width: 34%;
+    height: 2vh;
+    background-color: aliceblue;
+    border-radius: 5px;
+
+}
+
+.mais
+{
+    width: 25%;
+    height: 3vh; 
+    background-color: aliceblue;
+    border-radius: 5px;
+  
+}
+
+.teste1
+{
+    border-style: none;
+}
+.teste
+{
+  width: 100px;
+  height: 5vh;
+}

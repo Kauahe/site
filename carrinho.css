@@ -165,6 +165,11 @@ body
   
 }
 
+.fechar
+{
+    margin-left: 100px;
+}
+
 .quantidade
 {
     width: 100%;
@@ -229,6 +234,10 @@ body
 }
 .teste
 {
-  width: 100px;
-  height: 5vh;
+    width: 130px;
+    height: 5vh;
+    font-size: 13.5px;
+    background-color: rgb(239, 88, 103);
+    cursor: pointer;
+    cursor: auto;
 }
